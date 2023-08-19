@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Klaustoons: COMING SOON</title>
+    <meta name="description" content="Klaustoons Coming Soon Page">
+    <meta name="author" content="KLAUSTOONS.LTD">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <style>
+        :root {
+            --color-white                  : #fffaf0;
+            --color-green                  : hsl(156, 100%, 19%);
+            --color-yellow-primary         : hsl(44, 100%, 61%);
+            --color-green-primary          : rgb(6, 219, 102);
+        }
+   
+
+
+        body{
+           background-color: #003f26;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            max-width: 100vw;
+        }
+
+        .loader-img{
+            max-width: 100px;
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .loader-bar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+        }
+
+        .loader-bar .bar{
+            width: 150px;
+            height: 3px;
+            background-color: var(--color-green-primary);
+            border-radius: 3px;
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .loader-bar .bar .loader{
+            display: flex;
+            margin-right: auto;
+            width: 50%;
+            height: 2.5px;
+            background-color: hsl(145, 22%, 80%);
+        }
+
+        .text-huge-title{
+            color: var(--color-yellow-primary);
+            padding-top: 5rem;
+            font-size: 4rem;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1 class="text-huge-title">KLAUSTOONS</h1>
+
+        </div> 
+
+        <div class="loader-img">
+
+            <img src="images/Klaustoons-Logo.png" alt="Homepage">
+
+        </div>
+
+        <div class="loader-bar">
+
+            <div class="bar">
+
+                <div class="loader"></div>
+
+            </div> 
+
+        </div>
+
+    </div>
+</body>
