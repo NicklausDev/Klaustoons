@@ -11,4 +11,7 @@ This site handles the sign up and notification logic for the people who want to 
 ---
 
 ### Used Technologies
-* 
+* PHP and Javascript to handle logic
+* Twillio Messaging and WhatsApp APIs to push messages (OTPs and Notifications)
+* PHPMailer to handle smtp requests
+* MySQL for data storage
